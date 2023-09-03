@@ -1,0 +1,16 @@
+/* tags */
+body {
+  background-color: hsl(233, 47%, 7%);
+}
+
+/* classes */
+
+.card {
+  border: none !important;
+  background-color: hsl(244, 38%, 16%);
+  color: white;
+}
+
+.insights-box {
+  max-width: 74rem;
+}

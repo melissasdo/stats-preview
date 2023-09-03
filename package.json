@@ -1,13 +1,14 @@
 {
   "dependencies": {
     "ejs": "^3.1.9",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "prettier": "^3.0.3"
   },
   "name": "stats-preview-card-component-main",
   "description": "![Design preview for the Stats preview card component coding challenge](./design/desktop-preview.jpg)",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
+  "type": "module",
   "scripts": {
     "lint:check": "prettier --check .",
     "lint:fix": "prettier --write ."
