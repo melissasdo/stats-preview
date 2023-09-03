@@ -1,3 +1,11 @@
+/* media */
+@media only screen and (max-width: 375px) {
+  .card {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+}
+
 /* tags */
 body {
   background-color: hsl(233, 47%, 7%);

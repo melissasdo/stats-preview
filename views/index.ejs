@@ -71,6 +71,23 @@
       </div>
     </div>
 
+    <script>
+      function rearrangeElements() {
+        const screenWidth = window.innerWidth;
+        const card = document.querySelector(".card.insights-box");
+        const image = document.querySelector(".img-fluid");
+
+        if (screenWidth < 375) {
+          if (card && image) {
+            card.insertBefore(image, card.firstChild);
+          }
+        }
+      }
+
+      window.addEventListener("load", rearrangeElements);
+      window.addEventListener("resize", rearrangeElements);
+    </script>
+
     <%- include("partials/footer.ejs") %>
   </body>
 </html>
