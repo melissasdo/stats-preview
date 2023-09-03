@@ -1,6 +1,12 @@
 /* tags */
 body {
   background-color: hsl(233, 47%, 7%);
+  color: white !important;
+  font-family: 'Inter', sans-serif;
+}
+
+h2 {
+  font-weight: 700;
 }
 
 img {
@@ -8,7 +14,6 @@ img {
   outline-offset: -100vmax;
   -webkit-mask: linear-gradient(#000 0 0);
     mask: linear-gradient(#000 0 0);
-  /* to hide the overflowing outline */
 }
 
 /* classes */
@@ -21,4 +26,15 @@ img {
 
 .insights-box {
   max-width: 74rem;
+}
+
+.insights-desc {
+  font-weight: 100;
+  font-size: 14px;
+}
+
+.numbers {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 4rem;
 }
