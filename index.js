@@ -9,7 +9,20 @@ const port = 3000;
 app.use(express.static("public"));
 
 app.get("/", (req, res) => {
-  res.render(__dirname + "/views/index.ejs");
+  // Determine the screen size on the server-side
+  let screenSize;
+
+  if (req.headers["user-agent"].includes("Mobile")) {
+    screenSize = "small";
+  } else if (req.headers["user-agent"].includes("Tablet")) {
+    screenSize = "medium";
+  } else {
+    screenSize = "large";
+  }
+
+  res.render(__dirname + "/views/index.ejs", {
+    screenSize: screenSize,
+  });
 });
 
 app.listen(port, () => {
