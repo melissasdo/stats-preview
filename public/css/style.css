@@ -8,6 +8,12 @@
   }
 }
 
+@media only screen and (min-width: 376px) {
+  .numbers {
+    margin-top: 4rem;
+  }
+}
+
 /* tags */
 body {
   background-color: hsl(233, 47%, 7%);
@@ -46,5 +52,4 @@ img {
 .numbers {
   font-size: 20px;
   font-weight: 700;
-  margin-top: 4rem;
 }
