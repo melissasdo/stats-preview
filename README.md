@@ -11,12 +11,8 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -64,5 +60,5 @@ if (req.headers["user-agent"].includes("Mobile")) {
 
 ## Author
 
-- Frontend Mentor - [@mmercurydevs](https://www.frontendmentor.io/profile/mmercurydevs)
-- GitHub - [@mmercurydevs](https://github.com/mmercurydevs)
+- Frontend Mentor - [@melissasdo](https://www.frontendmentor.io/profile/melissasdo)
+- GitHub - [@melissasdo](https://github.com/melissasdo)
